@@ -36,4 +36,4 @@ merge<-merge[order(merge$subject),]
 #order columns and remove extra columns
 newdata<-merge[order(merge$subject),c(2,ncol(merge),3:(ncol(merge)-2))]
 
-write.table(newdata, "tidy.txt", row.names = TRUE, quote = FALSE)
+write.table(newdata, "tidy.txt", row.names = FALSE, quote = FALSE)
