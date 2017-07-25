@@ -13,7 +13,7 @@ activity:The type of activity name where the corresponding measurements were tak
 5) STANDING : subject was standing during the test  
 6) LAYING : subject was laying down during the test  
   
-79 Normalized Measurements taken from each subject and each activity.
+79 Normalized Measurements taken from each subject and each activity.  
 tBodyAccMeanX  
 tBodyAccMeanY  
 tBodyAccMeanZ  
