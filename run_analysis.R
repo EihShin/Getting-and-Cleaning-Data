@@ -43,4 +43,3 @@ merge<-merge(x = allmean, y = label, by = "activity", all.x=TRUE)
 newdata<-merge[order(merge$subject),c(2,ncol(merge),3:(ncol(merge)-1))]
 
 write.table(newdata, "tidy.txt", row.names = FALSE, quote = FALSE)
-tidy<-read.table("tidy.txt")
