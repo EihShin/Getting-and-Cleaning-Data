@@ -27,6 +27,7 @@ names(testset)<-c("subject","activity",featureName)
 
 allData<-rbind(trainset,testset)
 
+library(reshape2)
 #Aggregate mean
 df_melt <- melt(allData, id = c("subject", "activity"))
 allmean<-dcast(df_melt, subject + activity ~ variable, mean)
