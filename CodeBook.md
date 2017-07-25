@@ -2,7 +2,7 @@
 
 A document describes the data.  
 
-subject:The ID of the subject (Obdervation)  
+subject:30 ID of the subject (Observations)  
 activity:The type of activity name where the corresponding measurements were taken  
 
 6 activities' labels:  
